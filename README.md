@@ -1,1 +1,1 @@
-https://github.com/RepinDM/ono-tebe-nado
+https://github.com/RepinDM/ono-tebe-nado-fd
