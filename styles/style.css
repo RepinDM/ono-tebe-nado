@@ -327,9 +327,9 @@ main {
 }
 
 .site-footer__wrapper {
-display: flex;
-justify-content: space-between;
-padding: 180px 50px 80px; /* Совмещаем padding из .footer*/
+  display: flex;
+  justify-content: space-between;
+  padding: 180px 50px 80px; /* Совмещаем padding из .footer*/
 }
 
 .site-footer__contact-info {
@@ -339,19 +339,18 @@ padding: 180px 50px 80px; /* Совмещаем padding из .footer*/
   line-height: 1.35;
   text-underline-position: under;
   margin-left: 2px;
-/* Стили для всего блока контактной информации */
 }
 
 .site-footer__contact-link {
 /* Стили для ссылок (телефон, email) */
-display: block;
+  display: block;
 }
 
 .site-footer__contact-address {
 /* Стили для адреса */
-font-size: 18px;
-line-height: 1.35;
-text-underline-position: under;
+  font-size: 18px;
+  line-height: 1.35;
+  text-underline-position: under;
 }
 
 .site-footer__navigation {
@@ -367,29 +366,29 @@ text-underline-position: under;
 }
 
 .site-footer__menu-link {
-font-size: 18px;
-line-height: normal;
-text-underline-position: under;
-color: inherit;       /* Наследуем цвет от родителя, чтобы работали стили ссылок */
+  font-size: 18px;
+  line-height: normal;
+  text-underline-position: under;
+  color: inherit;       /* Наследуем цвет от родителя, чтобы работали стили ссылок */
 }
 .site-footer__menu-active {
   text-decoration: none;
 }
 
 .site-footer__social-links {
-display: flex;
-gap: 48px;
-list-style: none;
+  display: flex;
+  gap: 48px;
+  list-style: none;
 }
 
 .site-footer__social-link {
 /* Стили для ссылки соц. сети (a) */
-display: block; /*делает ссылку блочным элементом, чтобы она занимала всю доступную ширину родителя*/
+  display: block; /*делает ссылку блочным элементом, чтобы она занимала всю доступную ширину родителя*/
 }
 
 .site-footer__social-image {
-width: auto;
-height: 48px;
+  width: auto;
+  height: 48px;
 }
 
 
